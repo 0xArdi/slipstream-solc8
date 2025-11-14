@@ -2,7 +2,6 @@
 pragma solidity >=0.7.6 <0.9.0;
 
 import {IVoter} from "contracts/core/interfaces/IVoter.sol";
-import {ICLFactory} from "contracts/core/interfaces/ICLFactory.sol";
 import {IFactoryRegistry} from "contracts/core/interfaces/IFactoryRegistry.sol";
 
 /// @title The interface for the CL Factory
