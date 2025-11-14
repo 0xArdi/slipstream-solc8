@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-pragma solidity >=0.7.5;
+pragma solidity >=0.7.6 <0.9.0;
 pragma abicoder v2;
 
 /// @title MixedRouteQuoterV1 Interface
@@ -67,5 +67,5 @@ interface IMixedRouteQuoterV1 {
 
     /// @dev ExactOutput swaps are not supported by this new Quoter which is specialized for supporting routes
     ///      crossing both V2 liquidity pairs and V3 pools.
-    /// @deprecated quoteExactOutputSingle and exactOutput. Use QuoterV2 instead.
+    /// @custom:deprecated quoteExactOutputSingle and exactOutput. Use QuoterV2 instead.
 }

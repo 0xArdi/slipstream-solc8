@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-pragma solidity >=0.5.0;
+pragma solidity >=0.7.6 <0.9.0;
 
 import {IVoter} from "contracts/core/interfaces/IVoter.sol";
 import {ICLFactory} from "contracts/core/interfaces/ICLFactory.sol";
